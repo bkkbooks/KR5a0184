@@ -1,0 +1,40 @@
+canonical_identifier: bkk:krp/KR5a0184/ZTDZ/v1
+canonical_location: https://kanripo.org/bkk/KR5a0184/ZTDZ/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 太極真人說二十四門戒經
+  date: '2015-08-28 23:40:09.006497'
+  source:
+    repository: kanripo
+    path: KR5a0184
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+  edition:
+    short: ZTDZ
+    label: 【正統道藏・三家本】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5a0184_000-ZTDZ.yaml, hash: 'sha256:3af7af00d43380480321b4455272ad438f492459d647f465ad9b5ee2444b18d7'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5a0184_000-ZTDZ.markers.yaml, hash: 'sha256:19698a92f63c83ddf0df390b67ab9b935e1a0fe1ac5d63febca77194b8a1eac4'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5a0184_SJB_000-030412b
+    span:
+    - body
+    - 0
+    - 1433
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:390a7f74499f87111fa079b6d16cc6f193a430ca963ff1a85ac57a5b3da5f7a1

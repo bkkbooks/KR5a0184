@@ -1,0 +1,40 @@
+canonical_identifier: bkk:krp/KR5a0184/HFL/v1
+canonical_location: https://kanripo.org/bkk/KR5a0184/HFL/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 太極真人說二十四門戒經
+  date: '2015-08-28 23:40:09.006497'
+  source:
+    repository: kanripo
+    path: KR5a0184
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+  edition:
+    short: HFL
+    label: 【正統道藏・涵芬樓版】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5a0184_000-HFL.yaml, hash: 'sha256:160482c5f063b1d20d09582d847506843c31514d2b807d18bb8047eefb7d854e'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5a0184_000-HFL.markers.yaml, hash: 'sha256:51af3a3e6b77cfb93934370532cc1075cebf9acac38ae23032a8e45d42e147d9'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5a0184_HFL_000-001a
+    span:
+    - body
+    - 0
+    - 1433
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:d9d5f97f3c90797cee2798c4878295a0e4e89f9e54504b4c75d49c77c6d7c6c1
